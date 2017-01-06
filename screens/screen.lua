@@ -1,7 +1,7 @@
-local splash = require('splash')
-local howToPlay = require('howToPlay')
-local highScore = require('highScore')
-local game = require('game')
+local splash = require('screens/splash')
+local howToPlay = require('screens/howToPlay')
+local highScore = require('screens/highScore')
+local game = require('screens/game')
 
 local Screen = {}
 Screen.__index = Screen
